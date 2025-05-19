@@ -1,0 +1,53 @@
+1. Bem simples (comece aqui):
+
+Essas são funções de verificação de caractere ou manipulação bem direta:
+
+    ft_isalpha → verifica se é uma letra (A-Z, a-z)
+
+    ft_isdigit → verifica se é um dígito (0-9)
+
+    ft_isalnum → verifica se é alfanumérico (letra ou número)
+
+    ft_isascii → verifica se está entre 0 e 127
+
+    ft_isprint → verifica se é um caractere imprimível
+
+    ft_toupper → transforma minúscula em maiúscula
+
+    ft_tolower → transforma maiúscula em minúscula
+
+Essas são ótimas para começar — lógica simples com ifs e comparações.
+🔹 2. Um pouco mais de lógica (manipulação de strings e memória):
+
+    ft_strlen → conta o número de caracteres até o \0
+
+    ft_memset → preenche um bloco de memória com um valor
+
+    ft_bzero → zera um bloco de memória (memset com 0)
+
+    ft_memcpy → copia n bytes de uma área para outra (sem overlap)
+
+    ft_memmove → parecido com memcpy, mas funciona com overlap
+
+→ memmove é mais difícil que memcpy porque exige lógica extra para copiar com segurança.
+🔹 3. Nível intermediário (strings mais complexas):
+
+    ft_strchr → encontra a primeira ocorrência de um caractere
+
+    ft_strrchr → encontra a última ocorrência
+
+    ft_strncmp → compara duas strings até n caracteres
+
+    ft_memchr → busca um byte em uma área de memória
+
+    ft_memcmp → compara dois blocos de memória
+
+    ft_strlcpy → copia string com limite e retorna o tamanho da original
+
+    ft_strlcat → concatena com limite (mais complicado)
+
+🔹 4. Mais chatinhos (exigem mais atenção a detalhes):
+
+    ft_strnstr → busca uma substring dentro de outra, até n caracteres
+
+    ft_atoi → converte string para inteiro (cuida de espaços, sinais, overflow...)

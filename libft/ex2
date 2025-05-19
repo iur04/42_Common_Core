@@ -1,0 +1,38 @@
+ Nível 1 – Funções simples com escrita em fd
+
+Essas funções são boas para começar, pois envolvem apenas escrita com write():
+
+    ft_putchar_fd.c – escreve um caractere no file descriptor.
+
+    ft_putstr_fd.c – escreve uma string.
+
+    ft_putendl_fd.c – escreve uma string seguida de \n.
+
+    ft_putnbr_fd.c – escreve um número inteiro.
+
+🔹 Nível 2 – Manipulação básica de strings
+
+Agora você entra em funções que criam novas strings:
+
+    ft_substr.c – cria uma substring de uma string.
+
+    ft_strjoin.c – junta duas strings.
+
+    ft_strtrim.c – remove caracteres de uma string do início e do fim.
+
+🔹 Nível 3 – Uso de funções auxiliares e lógicas mais complexas
+
+Aqui as funções envolvem lógica mais elaborada, índices, alocação e/ou ponteiros de função:
+
+    ft_strmapi.c – aplica uma função a cada caractere da string para criar uma nova.
+
+    ft_striteri.c – aplica uma função in-place a cada caractere da string.
+
+    ft_itoa – converte um inteiro para string (requer lidar com números negativos, zero e alocação dinâmica).
+
+🔹 Nível 4 – Mais complexa: alocação + parsing + ponteiros
+
+Essa geralmente é a mais desafiadora da libft:
+
+    ft_split.c – separa uma string em substrings com base em um delimitador, exige várias alocações e cuidado com leaks.
+
